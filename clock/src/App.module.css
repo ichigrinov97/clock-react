@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  align-items: center;
+  background-image: url(./img/img1.svg);
+  width: 1980px;
+  height: 1200px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.secondContainer {
+  margin: auto;
+  background-image: url(./img/img3.png);
+  background-color: #fff;
+  width: 1512px;
+  height: 987px;
+}
+
+.clockBoard {
+  margin: auto;
+  margin-top: 300px;
+  background-image: url(./img/img3.png);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: -4px -4px 12px 0px #9CADCE;
+  box-shadow: 4px 4px 12px 0px #9CADCE;
+  border: 1px solid #9CADCE;
+
+
+
+
+  & img2 {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  & h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    color: #9CADCE;
+
+  }
+
+  & p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    color: #808080;
+
+  }
+}
